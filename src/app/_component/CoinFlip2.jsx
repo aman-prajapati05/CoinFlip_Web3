@@ -13,7 +13,7 @@ require("dotenv").config();
 const CONTRACT_ADDRESS = '0xb080aB7fcB00C430bA828503c307a514A759481F';
 const SEPOLIA_CHAIN_ID = 11155111;
 const MINIMUM_BALANCE = ethers.utils.parseEther("0.01");
-const MINIMUM_BET = ethers.utils.parseEther("0.01");
+const MINIMUM_BET = ethers.utils.parseEther("0.001");
 
 const CoinFlip = () => {
   const [walletAddress, setWalletAddress] = useState("");
