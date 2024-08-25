@@ -303,12 +303,13 @@ const CoinFlip = () => {
 
   return (
     <>
+    
+    <div className="flex flex-col min-h-screen bgcss relative p-4">
     {showCelebration && 
-      <div className='w-screen h-screen absolute'>
+      <div className='w-screen h-screen absolute overflow-hidden'>
        <Confetti />
       </div>
      }
-    <div className="flex flex-col min-h-screen bgcss relative p-4">
       <ToastContainer />
       
       <h1 className="md:text-[4vw] customFont text-[7vw] leading-[1] font-bold mb-8 text-white md:text-center">CoinFlip Game</h1>
